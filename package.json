@@ -3,6 +3,20 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "description": "Hook that synchronizes hash and React state",
+  "homepage": "https://github.com/seal7766/react-hash-state-hook",
+  "bugs": {
+    "url": "https://github.com/seal7766/react-hash-state-hook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seal7766/react-hash-state-hook"
+  },
+  "keywords": [
+    "hash",
+    "state",
+    "react"
+  ],
   "files": [
     "dist",
     "src"
@@ -34,7 +48,10 @@
     "trailingComma": "es5"
   },
   "name": "react-hash-state-hook",
-  "author": "seal7766",
+  "author": {
+    "name" : "seal7766",
+    "email": "pasle1109@gmail.com"
+  },
   "module": "dist/react-hash-state-hook.esm.js",
   "size-limit": [
     {
