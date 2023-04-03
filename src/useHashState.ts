@@ -32,7 +32,9 @@ const useHashState = <State extends Record<string, any> = {}>({
 
   useEffect(() => {
     window.addEventListener('hashchange', onChangeHash);
-    return window.removeEventListener('hashchange', onChangeHash);
+    return () => {
+      window.removeEventListener('hashchange', onChangeHash);
+    };
   }, [onChangeHash]);
 
   const setState = (newState: Partial<State>) => {
